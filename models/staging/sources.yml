@@ -1,0 +1,6 @@
+sources:
+  - name: NETFLIX_RAW
+    database: NETFLIX_DB
+    schema: RAW
+    tables:
+      - name: NETFLIX_TITLES_CLASS
