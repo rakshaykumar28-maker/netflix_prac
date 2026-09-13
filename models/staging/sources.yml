@@ -4,3 +4,7 @@ sources:
     schema: RAW
     tables:
       - name: NETFLIX_TITLES_CLASS
+        description: "Unique identifier for each title."
+        tests:
+          - not_null
+          - unique

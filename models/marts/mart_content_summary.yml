@@ -1,2 +1,12 @@
 models:
   - name: mart_content_summary
+    description: "Aggregated content metrics by type."
+    columns:
+      - name: type
+        description: "Content type (Movie or TV Show)."
+      - name: total_titles
+        description: "Total number of titles per type."
+      - name: india_titles
+        description: "Number of titles produced in India."
+      - name: pg_titles
+        description: "Number of titles rated"
